@@ -107,4 +107,6 @@ function promptCompile() {
         //}
         console.log(playerNumeri);
     }
+    alert(`hai azzeccato ${playerNumeri.length} numeri !`);
 }
+
