@@ -97,15 +97,22 @@ setTimeout(promptCompile, 4000);
 function promptCompile() {
     for (let i = 0; i < 5; i++) {
         let number = Number(prompt('inserisci un valore di quelli mostrati prima'));
-    
-        //while (playerNumeri.lenght < i) {
-            
-            if (controllore(gruppoNumeri, number) === true){
+        
+        //fase 4
+        /*while (playerNumeri.lenght < 5) {
+            const number = Number(prompt('inserisci un valore di quelli mostrati prima'));
+            if ((number == Number) && (controllore(gruppoNumeri, number) === true) {
                 playerNumeri.push(number);
-                //i++;
             }
-        //}
+        }*/  
+
+        if (controllore(gruppoNumeri, number) === true){
+            playerNumeri.push(number);
+            //i++;
+        }
+        
         console.log(playerNumeri);
+        
     }
     alert(`hai azzeccato ${playerNumeri.length} numeri !`);
 }
