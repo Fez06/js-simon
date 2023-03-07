@@ -99,6 +99,7 @@ function promptCompile() {
         let number = Number(prompt('inserisci un valore di quelli mostrati prima'));
         
         //fase 4
+        //magari se metttevo una variabile piu' distaccata nel ciclo funzionava
         /*while (playerNumeri.lenght < 5) {
             const number = Number(prompt('inserisci un valore di quelli mostrati prima'));
             if ((number == Number) && (controllore(gruppoNumeri, number) === true) {
